@@ -1,0 +1,106 @@
+
+/* style.css */
+
+/* General Reset */
+body, h1, h2, h3, p, ul, ol, li, a, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8;
+    color: #333333;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+/* Links */
+a {
+    color: #0066CC;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #10659C;
+}
+
+/* Button Styles */
+button, .button, input[type="submit"] {
+    background-color: #04d3a2;
+    color: #ffffff;
+    border: 1px solid #10659C;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover, .button:hover, input[type="submit"]:hover {
+    background-color: #013878;
+    border-color: #0066CC;
+}
+
+/* Container */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header Styling */
+.site-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eaeaea;
+    padding: 20px 0;
+}
+
+.site-title a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.site-title a:hover {
+    color: #10659C;
+}
+
+/* Navigation */
+.main-navigation {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-navigation a {
+    color: #013878;
+    padding: 10px 15px;
+}
+
+.main-navigation a:hover {
+    color: #04d3a2;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.site-footer a {
+    color: #eaeaea;
+}
+
+.site-footer a:hover {
+    color: #ffffff;
+}
